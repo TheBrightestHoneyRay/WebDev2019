@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>ToDo List</title>
+
+        <meta charset="utf-8">
+
+        <script>
+
+        </script>
+
+        <style>
+           
+            #titulo{
+                background-color:black;
+                margin: 0%;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                padding-left: 30px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                color:white;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+            .listEditor{
+                font-family:Arial, Helvetica, sans-serif;
+                position: relative;
+                top: 100px;
+                left: 400px;
+            }
+            
+            .header{
+                position:relative;
+                top:0px;
+                margin: 10px;
+                font-weight: 100;
+                font-size: 35px;
+            }
+            .newTask{
+                margin: 10px;
+                position: relative;
+                top: 25px;
+                left: 73px;
+                
+            }
+
+            .textInput{
+                border-width: 1px;
+                border-radius: 5px; 
+                padding-left: 15px; 
+                padding-right: 15px;
+                width: 700px;
+                height: 30px;
+                font-size: 15px;
+            }
+
+            .add{
+                font-size: 15px;
+                border-radius: 5px;
+                width: 60px;
+                height: 40px;
+                background-color:dodgerblue;
+                color: white;
+                position:relative;
+                left: 30px;
+            }
+
+            .list{
+                margin: 10px;
+                position: relative;
+                top: 60px;
+                left: 0px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="titulo">
+            ToDo List
+        </div>
+
+        <div class="listEditor">
+
+            <div class="header">
+                ToDo List
+            </div>
+
+
+            <div class="newTask">
+
+                <table>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>
+                                <input type="text" placeholder="New Task" class="textInput">
+                            </td>
+
+                            <td>
+                                <button class="add">
+                                    Add
+                                </button>
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div class="list">
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
